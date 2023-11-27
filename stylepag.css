@@ -15,7 +15,7 @@ body {
 }
 
 header {
-    background-image:url(red.jpg) ;
+    background-image:url(nugess.jpeg) ;
     background-position: center bottom;
     background-repeat: no-repeat;
     background-size: cover;
@@ -33,7 +33,7 @@ header {
 
 .menu {
     position: absolute;
-    top: 10px;
+    top: 20px;
     left: 0;
     right: 0;
     display: flex;
@@ -62,7 +62,7 @@ header {
 }
 
 .menu .navbar ul li a:hover {
-    color: #0eaef3;
+    color: white;
 }
 
 #menu {
@@ -89,19 +89,23 @@ header {
 
 .content h1 {
     color: black;
-    font-size: 55px;
+    font-size: 30px;
     text-transform: uppercase;
     font-weight: 500;
     line-height: 55px;
+      font-family: 'Poppins', sans-serif;
+    font-family: 'Smooch Sans', sans-serif;;
 
 }
 
 .content p {
-    margin-top: 25px;
+    margin-top: 45px;
     color: black;
-    text-transform: uppercase;
-    font-size: 35PX;
-    line-height: 40px;
+    text-transform:none;
+    font-size: 30PX;
+    line-height: 37px;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Smooch Sans', sans-serif;;
 }
 
 .btn-1 {
